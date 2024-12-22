@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section_text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.section_title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #65DAFF;
+}
+
+body{
+    background-color: #222;
+}
+
+.nav-menu{
+    position: fixed;
+    background-color: #222;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+    z-index: 100;
+    line-height: 80px;
+
+}
+
+.logo{
+    color: #fff;
+}
+
+.navigation{
+    float: right;
+}
+
+.nav-item{
+    transition: 0.3s;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav-item:hover{
+    color: #65DAFF;
+    text-shadow: 0 0 5px #65DAFF;
+}
+
+.site-header{
+    background: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover no-repeat;
+    height: 80vh;
+}
+
+.header-content{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 30px;
+
+}
+
+.header-title{
+    font-size: 90px;
+    color: #444444;
+    margin-bottom: 40px;
+}
+
+.header-sub_title{
+    color: #6d6c6c;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.header-btn{
+    color: #ffffff;
+    font-size: 20px;
+    background: rgb(41,196,161);
+    background: linear-gradient(90deg, rgba(41,196,161,1) 0%, rgba(0,255,253,1) 100%);
+    padding: 20px;
+    
+}
+
+.about{
+    height: 40vh;
+    text-align: center;
+}
+
+.about-card{
+    margin-top: 100px;
+    display: inline-block;
+    width: 24%;
+    height: 200px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.about-card-img{
+    height: 130px;
+    margin-bottom: 30px;
+}
+
+.about-text{
+    color: #65DAFF;
+    font-size: 20px;
+}
+
+.game-container{
+    margin-top: 100px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.games-card-img{
+    background: url("img/csgo.jpg")left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-title{
+    color: #65ffc4;
+    
+}
+
+.card-text{
+    color: #fff;
+    line-height: 26px;
+}
+
+.line-b{
+    background-color: #65DAFF;
+    border: none;
+    height: 2px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title{
+    color: #65DAFF;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.games-card-content{
+    display: inline-block;
+    width: 49%;
+    min-height: 350px;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.games-card-img2{
+    background: url("img/dota2.jpg")left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.games-card-img3{
+    background: url("img/apex.jpg")left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+.text-text{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-info{
+    padding: 30px;
+}
+
+.footer-container{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    padding: 20px;
+}
+
+.footer-line{
+    width: 30%;
+    margin: auto;
+}
+
+.footer-content{
+    background-color: #00e9dd;
+    margin-top: 20px;
+    height: 100px;
+    position: relative;
+}
+
+.footer-content a{
+    position: absolute;
+    right: 30px;
+    bottom: 50%;
+    transform: translateY(50%);
+    background-color: #000000;
+    color: #ffff;
+    padding: 10px 20px;
+}
+.footer-content h3{
+    position: absolute;
+    left: 30px;
+    bottom: 50%;
+    transform: translateY(50%);
+    color: #fff;
+    font-size: 32px;
+}
+
